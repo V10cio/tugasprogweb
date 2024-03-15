@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2c3e50, #000000); /* Gradient warna shady night */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.certificate-section {
+    background-color: #fff; /* Background putih */
+    color: #333; /* Warna teks hitam */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.certificate-section h2 {
+    color: #333; /* Warna teks hitam */
+}
+
+.certificates {
+    list-style: none;
+    padding: 0;
+}
+
+.certificates li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.certificates img {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Efek box shadow di bagian kiri bawah */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
